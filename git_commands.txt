@@ -1,0 +1,13 @@
+//Basics:
+
+git innit                   // to initialize the git repository
+
+git status                  // to get the status of the repository
+
+git add .                    // to stage all the files
+
+git add name                // to add  a specific file
+
+git rm --cached <file>      // unstage the staged files
+
+git commit -m "message"     // to commit the changes
