@@ -1,15 +1,16 @@
 //Basics:
 
-git innit                   // to initialize the git repository
+git innit                          // to initialize the git repository
 
-git status                  // to get the status of the repository
+git status                        // to get the status of the repository
 
-git add .                    // to stage all the files
+git add .                        // to stage all the files
 
-git add name                // to add  a specific file
+git add name                     // to add  a specific file
 
-git rm --cached <file>      // unstage the staged files
+git restore --staged <file>      // unstage the staged files
 
-git commit -m "message"     // to commit the changes
+git commit -m "message"         // to commit the changes
 
-git log                     // overall history
+git log                         // overall history
+
