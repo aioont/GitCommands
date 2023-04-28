@@ -11,3 +11,5 @@ git add name                // to add  a specific file
 git rm --cached <file>      // unstage the staged files
 
 git commit -m "message"     // to commit the changes
+
+git log                     // overall history
