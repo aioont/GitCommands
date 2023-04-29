@@ -1,6 +1,6 @@
 //Basics:
 
-git innit                          // to initialize the git repository
+git init                          // to initialize the git repository
 
 git status                        // to get the status of the repository
 
@@ -14,3 +14,8 @@ git commit -m "message"         // to commit the changes
 
 git log                         // overall history
 
+git push -u origin main
+
+git pull origin main
+
+git clone <repo_name.git>
