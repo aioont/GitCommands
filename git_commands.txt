@@ -15,3 +15,5 @@ git commit -m "message"         // to commit the changes
 git log                         // overall history
 
 git config --local credential.helper ""    // any account already logged in
+git config --global --unset-all user.name
+git config --global --unset-all user.email
