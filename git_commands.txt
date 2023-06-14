@@ -1,10 +1,28 @@
-# Git Commands
+# GitCommands
 
 ## Table of Contents
-
-- [Installation](#installation)
+- [Some Commands](#commands)
 - [Usage](#usage)
 - [Contributing](#contributing)
+
+## Commands
+
+`git log`                        // overall history
+
+`git config --local credential.helper ""`    // any account already logged in
+
+`git config --global --unset-all user.name`
+
+`git config --global --unset-all user.email`
+
+
+
+`git config pull.rebase false`      // Fix unrelated history
+
+`git pull origin main`
+
+`git push origin main`
+
 
 
 ## Usage
@@ -44,5 +62,3 @@
 ## Contributing
 
 Contributions are welcome! If you have any ideas or suggestions, please open an issue or submit a pull request.
-
-
